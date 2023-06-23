@@ -98,7 +98,6 @@ class CloudflareChecker:
             response = await client.get(url)
             return await cls.check_cloudflare(response)
         except httpx.HTTPError as error:
-            cls.error_info(url, error)
             return {'error': str(error)}
 
     @classmethod
