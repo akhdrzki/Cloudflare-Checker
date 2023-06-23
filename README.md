@@ -19,7 +19,7 @@ python cfchecker.py YOUR_FILENAME(e.g urls.txt)
 Alternatively, you can run _**Cloudflare Checker**_ with a single checking ::
 
 ```sh
-python main.py
+python cfchecker.py
 ```
 
 - ## **Example mass checking**
